@@ -7,7 +7,7 @@
     "server": "cd ../xcelerate_new/server && npm run dev",
     "dev": "vite",
     "serve": "concurrently \"npm run dev\" \"npm run server\"",
-    "build": "vite build",
+    "build": "npm ci --legacy-peer-deps && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
