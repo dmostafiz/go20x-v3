@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "install": "npm install --force",
+    "install": "npm ci --legacy-peer-deps",
     "server": "cd ../xcelerate_new/server && npm run dev",
     "dev": "vite",
     "serve": "concurrently \"npm run dev\" \"npm run server\"",
